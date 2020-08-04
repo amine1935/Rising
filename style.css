@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+}
+
+#bran{
+    display: none;
+}
+nav{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    position: absolute;
+}
+
+nav a{
+    color: black;
+    text-transform: uppercase;
+
+}
+
+nav a:hover{
+    color: grey;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+/* Jumbotron Header */
+.jumb_top{
+    padding: 40px;
+    text-align: center;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.jumb_top .jumbotron{
+    border-radius: 20px;
+    padding: 40px;
+    width: 70vw;
+    background-color: rgba(255,255,255,0.75);
+}
+
+
+.jumb_top .jumbotron a{
+    background-color: #1084e2;
+    border: 0;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.jumb_top .jumbotron a:hover{
+    border: 2px solid white;
+    font-size: 16px;
+}
+/* Jumbotron Header */
+
+/* Description Rising */
+
+.services{background-color: white;box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);}
+
+#cont_top{
+    padding: 60px;
+    text-align: center;
+}
+
+#cont_top img{
+    margin-bottom: 25px;
+}
+
+#cont_top p{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Description Rising */
+
+/* Pourquoi nous choisir */
+
+#cont_mid{
+    padding: 60px;
+    text-align: center;
+}
+
+#cont_mid h1{
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+#cont_mid p{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cont_mid .item{
+    padding-top: 36px;
+}
+
+#cont_mid .item h2{
+    font-weight: normal;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Pourquoi nous choisir */
+
+/* L'équipe Rising */
+.team{
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 60px;
+    text-align: center;
+}
+
+.team hr{
+    width: 50%;
+}
+
+.team h1{
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.team p{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team .item{
+    padding-top: 36px;
+}
+
+.team .item a{
+    text-decoration: none;
+    color: black;
+}
+
+.team .item h2{
+    font-weight: bold;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+/* L'équipe Rising */
+
+/* Widget Calendly */
+
+#cont_after{
+    width: 100%;
+    padding: 40px;
+    /*background-color: #A9FFF4;*/
+    background-color: #1084e2;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.calendly-inline-widget{
+    min-width:320px;
+    height:650px;
+}
+
+/* Widget Calendly */
+
+
+/* Formulaire de contact */
+#contact{
+    padding: 40px;
+    background-color: #1084e2;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.containerr {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+#contacte input[type="text"],
+#contacte input[type="email"],
+#contacte input[type="tel"],
+#contacte textarea,
+#contacte button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contacte {
+    background: #F9F9F9;
+    padding: 25px;
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contacte h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contacte h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contacte input[type="text"],
+#contacte input[type="email"],
+#contacte input[type="tel"],
+#contacte textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contacte input[type="text"]:hover,
+#contacte input[type="email"]:hover,
+#contacte input[type="tel"]:hover,
+#contacte textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contacte textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contacte button[type="submit"] {
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.copyright {
+    text-align: center;
+}
+
+#contacte input:focus,
+#contacte textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+#social_network a{
+    color: blue;
+}
+
+.fab.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+/* Formulaire de contact */
+
+footer{
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-size: 12px;
+}
+
+footer a{
+    color: black;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+/* */
+.c_legal{
+    width: 65vw;
+    padding-top: 3%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+.c_legal a:hover{
+    text-decoration: none;
+}
+
+.c_legal h3,h2{
+    color: #05b9e2;
+}
+
+.c_legal p{
+    font-size: 14px;
+}
+
+
+/* */
+
+@media only screen and (max-width: 992px)  {
+
+    #bran{
+        display: block;
+    }
+
+    #log{
+        display: none;
+    }
+
+}
+
